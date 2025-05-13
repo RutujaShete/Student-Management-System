@@ -5,9 +5,6 @@ private int age;
 private String gender;
 private String major;
 
-typescript
-Copy
-Edit
 public Student() {}
 
 public Student(int id, String name, int age, String gender, String major) {
@@ -53,9 +50,6 @@ e.printStackTrace();
 }
 }
 
-java
-Copy
-Edit
 public Student getStudent(int id) {
     Student student = null;
     try (Connection conn = DBConnection.getConnection()) {
